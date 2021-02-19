@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Serif&display=swap" rel="stylesheet">
+    <style media="screen">
+      body {
+        background: #3C6DF6;
+      }
+      @font-face {
+       font-family: 'Fugue';
+       src: url('fonts/fugue_regular.eot');
+       src: local('☺'), url('fonts/fugue_regular.woff') format('woff'), url('fonts/fugue_regular.ttf') format('truetype'), url('fonts/fugue_regular.svg') format('svg');
+       font-weight: normal;
+       font-style: normal;
+      }
+      .level {
+        position: absolute;
+        width: 143px;
+        height: 71px;
+        left: 53px;
+        top: 62px;
+        background: #5F86F3;
+        font-size: 24px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        font-family: 'Fugue';
+        transition: 1s;
+      }
+      .section {
+        position: absolute;
+        width: 143px;
+        height: 71px;
+        left: 195px;
+        top: 62px;
+        background: #7C99EA;
+        font-size: 24px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        font-family: 'Fugue';
+        transition: 1s;
+      }
+      .rules {
+        position: absolute;
+        width: 403px;
+        height: 85px;
+        left: 515px;
+        top: 62px;
+        background: #3C6DF6;
+        font-size: 36px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        color: white;
+        font-family: 'Fugue';
+        transition: 1s;
+      }
+      .score {
+        position: absolute;
+        width: 143px;
+        height: 71px;
+        left: 1073px;
+        top: 61px;
+        background: #5F86F3;
+        font-size: 24px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        font-family: 'Fugue';
+        transition: 1s;
+      }
+      .help {
+        position: absolute;
+        width: 143px;
+        height: 71px;
+        left: 1238px;
+        top: 62px;
+        background: #5F86F3;
+        font-size: 24px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        font-family: 'Fugue';
+        transition: 1s;
+      }
+      .text {
+        position: absolute;
+        top: 200px;
+        left: 53px;
+        width: 200px;
+        height: 200px;
+        font-size: 150px;
+        color: white;
+        transition: 1s;
+      }
+      .text1 {
+        position: absolute;
+        top: 200px;
+        left: 253px;
+        width: 200px;
+        height: 200px;
+        font-size: 150px;
+        color: white;
+        transition: 1s;
+      }
+      .text2 {
+        position: absolute;
+        top: 200px;
+        left: 453px;
+        width: 200px;
+        height: 200px;
+        font-size: 150px;
+        color: white;
+        transition: 1s;
+      }
+      .text3 {
+        position: absolute;
+        top: 200px;
+        left: 653px;
+        width: 200px;
+        height: 200px;
+        font-size: 150px;
+        color: white;
+        transition: 1s;
+      }
+      .text4 {
+        position: absolute;
+        top: 200px;
+        left: 853px;
+        width: 200px;
+        height: 200px;
+        font-size: 150px;
+        color: white;
+        transition: 1s;
+      }
+      .text5 {
+        position: absolute;
+        top: 200px;
+        left: 1053px;
+        width: 200px;
+        height: 200px;
+        font-size: 150px;
+        color: white;
+        transition: 1s;
+      }
+      .text6 {
+        position: absolute;
+        top: 200px;
+        left: 1253px;
+        width: 200px;
+        height: 200px;
+        font-size: 150px;
+        color: white;
+        transition: 1s;
+      }
+      .text7 {
+        position: absolute;
+        top: 400px;
+        left: 53px;
+        width: 200px;
+        height: 200px;
+        font-size: 150px;
+        color: white;
+        transition: 1s;
+      }
+      .text8 {
+        position: absolute;
+        top: 400px;
+        left: 253px;
+        width: 200px;
+        height: 200px;
+        font-size: 150px;
+        color: white;
+        transition: 1s;
+      }
+      .text9 {
+        position: absolute;
+        top: 382px;
+        left: 453px;
+        width: 200px;
+        height: 200px;
+        font-size: 150px;
+        color: white;
+        font-family: 'PT Serif', serif;
+        transition: 1s;
+      }
+      .text10 {
+        position: absolute;
+        top: 400px;
+        left: 653px;
+        width: 200px;
+        height: 200px;
+        font-size: 150px;
+        color: white;
+        transition: 1s;
+      }
+      .text11 {
+        position: absolute;
+        top: 400px;
+        left: 853px;
+        width: 200px;
+        height: 200px;
+        font-size: 150px;
+        color: white;
+        transition: 1s;
+      }
+      .text12 {
+        position: absolute;
+        top: 400px;
+        left: 1053px;
+        width: 200px;
+        height: 200px;
+        font-size: 150px;
+        color: white;
+        transition: 1s;
+      }
+      .text13 {
+        position: absolute;
+        top: 400px;
+        left: 1253px;
+        width: 200px;
+        height: 200px;
+        font-size: 150px;
+        color: white;
+        transition: 1s;
+      }
+      .text14 {
+        position: absolute;
+        top: 600px;
+        left: 53px;
+        width: 200px;
+        height: 200px;
+        font-size: 150px;
+        color: white;
+        transition: 1s;
+      }
+      .text15 {
+        position: absolute;
+        top: 600px;
+        left: 253px;
+        width: 200px;
+        height: 200px;
+        font-size: 150px;
+        color: white;
+        transition: 1s;
+      }
+      .text16 {
+        position: absolute;
+        top: 600px;
+        left: 453px;
+        width: 200px;
+        height: 200px;
+        font-size: 150px;
+        color: white;
+        transition: 1s;
+      }
+      .text17 {
+        position: absolute;
+        top: 600px;
+        left: 653px;
+        width: 200px;
+        height: 200px;
+        font-size: 150px;
+        color: white;
+        transition: 1s;
+      }
+      .text18 {
+        position: absolute;
+        top: 600px;
+        left: 853px;
+        width: 200px;
+        height: 200px;
+        font-size: 150px;
+        color: white;
+        transition: 1s;
+      }
+      .text19 {
+        position: absolute;
+        top: 600px;
+        left: 1053px;
+        width: 200px;
+        height: 200px;
+        font-size: 150px;
+        color: white;
+        transition: 1s;
+      }
+      .text20 {
+        position: absolute;
+        top: 600px;
+        left: 1253px;
+        width: 200px;
+        height: 200px;
+        font-size: 150px;
+        color: white;
+        transition: 1s;
+      }
+      .helper {
+        position: absolute;
+        top: 0px;
+        right: -500px;
+        width: 485px;
+        height: 837px;
+        background-color: red;
+        transition: 1s;
+      }
+      img {
+        width: 100%;
+        height: 100%;
+      }
+      .circle {
+        position: absolute;
+        top: 300px;
+        left: 500px;
+        width: 300px;
+        height: 300px;
+        border-radius: 150px;
+        background: white;
+        transition: 2s;
+      }
+      @keyframes shakeX {
+        from,
+        to {
+        transform: translate3d(0, 0, 0);
+      }
+        10%,
+        30%,
+        50%,
+        70%,
+        90% {
+        transform: translate3d(-10px, 0, 0);
+        }
+
+        20%,
+        40%,
+        60%,
+        80% {
+        transform: translate3d(10px, 0, 0);
+          }
+        }
+        .animate__shakeX {
+          animation-name: shakeX;
+          animation-duration: 1s;
+        }
+        .showhelp {
+          transform: translate(-500px);
+        }
+        .hidden {
+          opacity: 0;
+        }
+        .blocker {
+          display: none;
+        }
+        .blur {
+          filter: blur(7px);
+        }
+        .blur1 {
+          filter: blur(0px);
+        }
+        .orange {
+          color: #3CCE2F;
+        }
+
+    </style>
+    <script>
+    $(document).ready(function(){
+      $(".text, .text1, .text2, .text3, .text4, .text5, .text6, .text7, .text8, .text10, .text11, .text12, .text13, .text14, .text15, .text16, .text17, .text18, .text19, .text20").click(function(){
+        $(this).toggleClass("animate__shakeX");
+      });
+    });
+    $(document).ready(function(){
+      $(".help").click(function(){
+        $(".helper").addClass("showhelp");
+        setTimeout(function(){
+          $(".text, .text1, .text2, .text3, .text4, .text5, .text6, .text7, .text8, .text9, .text10, .text11, .text12, .text13, .text14, .text15, .text16, .text17, .text18, .text19, .text20, .level, .section, .rules, .score").removeClass("blur1");
+        },1)
+        setTimeout(function(){
+          $(".text, .text1, .text2, .text3, .text4, .text5, .text6, .text7, .text8, .text9, .text10, .text11, .text12, .text13, .text14, .text15, .text16, .text17, .text18, .text19, .text20, .level, .section, .rules, .score").addClass("blur");
+        },1)
+      });
+    });
+    $(document).ready(function(){
+      $(".helper").click(function(){
+        $(".helper").removeClass("showhelp");
+        setTimeout(function(){
+          $(".text, .text1, .text2, .text3, .text4, .text5, .text6, .text7, .text8, .text9, .text10, .text11, .text12, .text13, .text14, .text15, .text16, .text17, .text18, .text19, .text20, .level, .section, .rules, .score").addClass("blur1");
+        },1)
+      });
+    });
+    $(document).ready(function(){
+      $(".text9").click(function(){
+        $(this).addClass("orange");
+        setTimeout(function(){
+          $("div").addClass("hidden");
+        },2000)
+        setTimeout(function(){
+          $("div").addClass("blocker");
+        },3201)
+        setTimeout(function(){
+          $(".level, .section, .rules, .score, .help, .circle").removeClass("blocker");
+        },3202)
+        setTimeout(function(){
+          $(".level, .section, .rules, .score, .help, .circle").removeClass("hidden");
+        },3203)
+      });
+    });
+
+    </script>
+  </head>
+  <body>
+    <div class="level">
+      Уровень 1
+    </div>
+    <div class="section">
+      Антиква
+    </div>
+    <div class="rules">
+      Найди PT Serif
+      <br>из Times New Roman
+    </div>
+    <div class="score">
+      560
+    </div>
+    <div class="help">
+      Помощь
+    </div>
+    <div class="text">
+      A
+    </div>
+    <div class="text1">
+      A
+    </div>
+    <div class="text2">
+      A
+    </div>
+    <div class="text3">
+      A
+    </div>
+    <div class="text4">
+      A
+    </div>
+    <div class="text5">
+      A
+    </div>
+    <div class="text6">
+      A
+    </div>
+    <div class="text7">
+      A
+    </div>
+    <div class="text8">
+      A
+    </div>
+    <div class="text9">
+      A
+    </div>
+    <div class="text10">
+      A
+    </div>
+    <div class="text11">
+      A
+    </div>
+    <div class="text12">
+      A
+    </div>
+    <div class="text13">
+      A
+    </div>
+    <div class="text14">
+      A
+    </div>
+    <div class="text15">
+      A
+    </div>
+    <div class="text16">
+      A
+    </div>
+    <div class="text17">
+      A
+    </div>
+    <div class="text18">
+      A
+    </div>
+    <div class="text19">
+      A
+    </div>
+    <div class="text20">
+      A
+    </div>
+    <div class="helper">
+      <img src="images/Group 1.png" alt="">
+    </div>
+    <div class="circle hidden blocker">
+
+    </div>
+  </body>
+</html>
