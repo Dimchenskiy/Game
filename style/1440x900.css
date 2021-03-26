@@ -1090,6 +1090,9 @@
 .form4 {
   display: none;
 }
+.formvert {
+  display: none;
+}
 .form2 {
   position: absolute;
   top: 0px;
