@@ -299,9 +299,9 @@
 }
 .score {
   position: absolute;
-  width: 9.9%;
+  width: 10.9%;
   height: 71px;
-  left: 74.5%;
+  left: 74%;
   top: 61px;
   background: #5F86F3;
   font-size: 1.6vw;
@@ -318,7 +318,7 @@
   width: 9.9%;
   height: 71px;
   left: 85.9%;
-  top: 62px;
+  top: 61px;
   background: #5F86F3;
   font-size: 1.6vw;
   display: flex;

@@ -389,9 +389,9 @@
   }
   .score {
     position: absolute;
-    width: 9.9%;
+    width: 10.9%;
     height: 91px;
-    left: 74.5%;
+    left: 74%;
     top: 81px;
     background: #5F86F3;
     font-size: 1.6vw;
@@ -1825,7 +1825,7 @@
       transition: .1s;
     }
     .starting1 {
-      transform: translate(-670px);
+      transform: translate(-710px);
       transition: 1.5s;
     }
     .starting2 {

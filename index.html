@@ -17,7 +17,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans&display=swap" rel="stylesheet">
-    <link rel='stylesheet' media='screen and (min-width: 1440px) and (max-width: 2200px)' href='style/1920x1080.css' />
+    <link rel='stylesheet' media='screen and (min-width: 1440px) and (max-width: 1920px)' href='style/1920x1080.css' />
     <link rel='stylesheet' media='screen and (min-width: 1367px) and (max-width: 1440px)' href='style/1440x900.css' />
     <link rel='stylesheet' media='screen and (min-width: 1300px) and (max-width: 1366px)' href='style/1366x768.css' />
     <link rel='stylesheet' media='screen and (min-width: 1200px) and (max-width: 1300px)' href='style/1280x800.css' />
@@ -489,10 +489,10 @@
   // });
   $(function () {
   let count = 30;
-  $('.score').html(count);
+  $('.score').html('Попыток: ' + count);
   $('.text, .text1, .text2, .text3, .text4, .text5, .text6, .text7, .text8, .text10, .text11, .text12, .text13, .text14, .text15, .text16, .text17, .text18, .text19, .text20, .text21, .text22, .text23, .text24, .text25, .text26').click(function () {
     count -= 5;
-    $('.score').html(count);
+    $('.score').html('Попыток: ' + count);
     if (count == 0) {
       $('.box').removeClass("blocker");
       setTimeout(function(){
@@ -815,6 +815,7 @@ $(document).ready(function(){
     <div class="form hidden blocker">
       <img src="images/form.png" alt="worf" class="form1">
       <img src="images/form3.png" alt="worf" class="form3">
+      <img src="images/formvert.png" alt="wors" class="formvert">
     </div>
     <div class="helper">
       <img src="images/helper1.png" alt="">

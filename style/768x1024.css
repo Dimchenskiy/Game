@@ -18,12 +18,12 @@
 }
 .level2 {
   position: absolute;
-  width: 9.9%;
+  width: 15%;
   height: 61px;
-  left: 3.7%;
-  top: 62px;
+  left: 5%;
+  top: 52px;
   background: #5F86F3;
-  font-size: 1.8vw;
+  font-size: 2.3vw;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -181,12 +181,13 @@
 }
 .rules2 {
   position: absolute;
-  width: 30%;
+  width: 40%;
   height: 85px;
-  left: 35%;
-  top: 52px;
+  left: 29%;
+  top: 145px;
   background: #3C6DF6;
-  font-size: 2.5vw;
+  font-size: 3.5vw;
+  line-height: 36px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -302,7 +303,7 @@
   position: absolute;
   width: 15%;
   height: 61px;
-  left: 60%;
+  left: 63%;
   top: 52px;
   background: #5F86F3;
   font-size: 2.3vw;
@@ -632,43 +633,42 @@
 }
 #word1 {
   position: absolute;
-  top: 210px;
+  top: 280px;
   left: 0.06%;
   width: 5%;
   height: 130px;
-  font-size: 10vw;
+  font-size: 14vw;
   font-family: 'Conv_Firmin Didot';
   color: white;
 }
 #word2 {
   position: absolute;
-  top: 210px;
-  left: 10%;
+  top: 280px;
+  left: 14.3%;
   width: 5%;
   height: 130px;
-  font-size: 10vw;
+  font-size: 14vw;
   font-family: 'Conv_Firmin Didot';
   color: white;
 
 }
 #word3 {
   position: absolute;
-  top: 210px;
-  left: 20%;
+  top: 280px;
+  left: 28.6%;
   width: 5%;
   height: 130px;
-  font-size: 10vw;
+  font-size: 14vw;
   font-family: 'Conv_Firmin Didot';
   color: white;
-
 }
 #word4 {
   position: absolute;
-  top: 210px;
-  left: 30%;
+  top: 280px;
+  left: 43%;
   width: 5%;
   height: 130px;
-  font-size: 10vw;
+  font-size: 14vw;
   font-family: 'Conv_Firmin Didot';
   color: white;
 
@@ -676,7 +676,7 @@
 #word5 {
   position: absolute;
   top: 210px;
-  left: 40%;
+  left: 140%;
   width: 5%;
   height: 130px;
   font-size: 10vw;
@@ -686,33 +686,33 @@
 }
 #word6 {
   position: absolute;
-  top: 353px;
+  top: 423.3px;
   left: 0.06%;
   width: 5%;
   height: 130px;
-  font-size: 10vw;
+  font-size: 14vw;
   font-family: 'Conv_Firmin Didot';
   color: white;
 
 }
 #word7 {
   position: absolute;
-  top: 353px;
-  left: 10%;
+  top: 423.3px;
+  left: 14.3%;
   width: 5%;
   height: 130px;
-  font-size: 10vw;
+  font-size: 14vw;
   font-family: 'Conv_Firmin Didot';
   color: white;
 
 }
 .text41 {
   position: absolute;
-  top: 347px;
-  left: 20%;
+  top: 417.3px;
+  left: 28.6%;
   width: 5%;
   height: 130px;
-  font-size: 10vw;
+  font-size: 14vw;
   font-family: 'Conv_bodoni72c';
   color: white;
   transition: 1s;
@@ -724,68 +724,68 @@
 }
 #word9 {
   position: absolute;
-  top: 353px;
-  left: 30%;
+  top: 423.3px;
+  left: 43%;
   width: 5%;
   height: 130px;
-  font-size: 10vw;
+  font-size: 14vw;
   font-family: 'Conv_Firmin Didot';
   color: white;
 }
 #word10 {
   position: absolute;
   top: 353px;
-  left: 40%;
+  left: 130%;
   width: 5%;
   height: 130px;
-  font-size: 10vw;
+  font-size: 14vw;
   font-family: 'Conv_Firmin Didot';
   color: white;
 }
 #word11 {
   position: absolute;
-  top: 496px;
+  top: 566.6px;
   left: 0.06%;
   width: 5%;
   height: 130px;
-  font-size: 10vw;
+  font-size: 14vw;
   font-family: 'Conv_Firmin Didot';
   color: white;
 }
 #word12 {
   position: absolute;
-  top: 496px;
-  left: 10%;
+  top: 566.6px;
+  left: 14.3%;
   width: 5%;
   height: 130px;
-  font-size: 10vw;
+  font-size: 14vw;
   font-family: 'Conv_Firmin Didot';
   color: white;
 }
 #word13 {
   position: absolute;
-  top: 496px;
-  left: 20%;
+  top: 566.6px;
+  left: 28.6%;
   width: 5%;
   height: 130px;
-  font-size: 10vw;
+  font-size: 14vw;
   font-family: 'Conv_Firmin Didot';
   color: white;
 }
 #word14 {
   position: absolute;
-  top: 496px;
-  left: 30%;
+  top: 566.6px;
+  left: 43%;
   width: 5%;
   height: 130px;
-  font-size: 10vw;
+  font-size: 14vw;
   font-family: 'Conv_Firmin Didot';
   color: white;
 }
 #word15 {
   position: absolute;
   top: 496px;
-  left: 40%;
+  left: 140%;
   width: 5%;
   height: 130px;
   font-size: 10vw;
@@ -794,48 +794,48 @@
 }
 #word16 {
   position: absolute;
-  top: 640px;
+  top: 710px;
   left: 0.06%;
   width: 5%;
   height: 130px;
-  font-size: 10vw;
+  font-size: 14vw;
   font-family: 'Conv_Firmin Didot';
   color: white;
 }
 #word17 {
   position: absolute;
-  top: 640px;
-  left: 10%;
+  top: 710px;
+  left: 14.3%;
   width: 5%;
   height: 130px;
-  font-size: 10vw;
+  font-size: 14vw;
   font-family: 'Conv_Firmin Didot';
   color: white;
 }
 #word18 {
   position: absolute;
-  top: 640px;
-  left: 20%;
+  top: 710px;
+  left: 28.6%;
   width: 5%;
   height: 130px;
-  font-size: 10vw;
+  font-size: 14vw;
   font-family: 'Conv_Firmin Didot';
   color: white;
 }
 #word19 {
   position: absolute;
-  top: 640px;
-  left: 30%;
+  top: 710px;
+  left: 43%;
   width: 5%;
   height: 130px;
-  font-size: 10vw;
+  font-size: 14vw;
   font-family: 'Conv_Firmin Didot';
   color: white;
 }
 #word20 {
   position: absolute;
-  top: 640px;
-  left: 40%;
+  top: 710px;
+  left: 140%;
   width: 5%;
   height: 130px;
   font-size: 10vw;
@@ -844,67 +844,67 @@
 }
 #word21 {
   position: absolute;
-  top: 250px;
-  left: 56.2%;
+  top: 505px;
+  left: 42.2%;
   width: 5%;
   height: 130px;
-  font-size: 10vw;
+  font-size: 14vw;
   font-family: 'Conv_Firmin Didot';
   color: white;
 }
 #word22 {
   position: absolute;
-  top: 250px;
-  left: 65.2%;
+  top: 505px;
+  left: 58.2%;
   width: 5%;
   height: 130px;
-  font-size: 10vw;
+  font-size: 14vw;
   font-family: 'Conv_Firmin Didot';
   color: white;
 }
 #word23 {
   position: absolute;
-  top: 250px;
-  left: 74.3%;
+  top: 505px;
+  left: 74.2%;
   width: 5%;
   height: 130px;
-  font-size: 10vw;
+  font-size: 14vw;
   font-family: 'Conv_Firmin Didot';
   color: white;
 }
 #word24 {
   position: absolute;
-  top: 250px;
-  left: 83.3%;
+  top: 505px;
+  left: 90.3%;
   width: 5%;
   height: 130px;
-  font-size: 10vw;
+  font-size: 14vw;
   font-family: 'Conv_Firmin Didot';
   color: white;
 }
 #word25 {
   position: absolute;
-  top: 250px;
-  left: 92.3%;
+  top: 505px;
+  left: 130.2%;
   width: 5%;
   height: 130px;
-  font-size: 10vw;
+  font-size: 14vw;
   font-family: 'Conv_Firmin Didot';
   color: white;
 }
 #word26 {
   position: absolute;
-  top: 390px;
-  left: 56.2%;
+  top: 640px;
+  left: 42.2%;
   width: 5%;
   height: 130px;
-  font-size: 10vw;
+  font-size: 14vw;
   font-family: 'Conv_Firmin Didot';
   color: white;
 }
 #word27 {
   position: absolute;
-  top: 390px;
+  top: 640px;
   left: 65.2%;
   width: 5%;
   height: 130px;
@@ -914,7 +914,7 @@
 }
 #word28 {
   position: absolute;
-  top: 390px;
+  top: 640px;
   left: 74.3%;
   width: 5%;
   height: 130px;
@@ -924,7 +924,7 @@
 }
 #word29 {
   position: absolute;
-  top: 390px;
+  top: 640px;
   left: 83.3%;
   width: 5%;
   height: 130px;
@@ -934,7 +934,7 @@
 }
 #word30 {
   position: absolute;
-  top: 390px;
+  top: 640px;
   left: 92.3%;
   width: 5%;
   height: 130px;
@@ -1045,7 +1045,7 @@
 #word41 {
   position: absolute;
   top: 530px;
-  left: 47.2%;
+  left: 147.2%;
   width: 5%;
   height: 130px;
   font-size: 10vw;
@@ -1074,7 +1074,7 @@
   top: 0px;
   left: 0px;
   width: 100%;
-  height: 768px;
+  height: 1024px;
   transition: .1s;
   z-index: 2;
   pointer-events: none;
@@ -1099,6 +1099,19 @@
 }
 .form22 {
   display: none;
+}
+.form3 {
+  display: none;
+}
+.formvert {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 1024px;
+  transition: .1s;
+  z-index: 2;
+  pointer-events: none;
 }
 .form2 {
   position: absolute;
