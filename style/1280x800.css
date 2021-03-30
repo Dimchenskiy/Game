@@ -1093,6 +1093,9 @@
 .formvert {
   display: none;
 }
+.formvert2 {
+  display: none;
+}
 .form2 {
   position: absolute;
   top: 0px;

@@ -3,12 +3,12 @@
 }
 .level {
   position: absolute;
-  width: 15%;
-  height: 61px;
-  left: 5%;
-  top: 52px;
+  width: 22.7%;
+  height: 45px;
+  left: 7.7%;
+  top: 63px;
   background: #5F86F3;
-  font-size: 2.3vw;
+  font-size: 3.3vw;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -130,12 +130,12 @@
 }
 .section {
   position: absolute;
-  width: 15%;
-  height: 61px;
-  left: 45%;
-  top: 450px;
+  width: 18.1%;
+  height: 45px;
+  left: 42%;
+  top: 420px;
   background: #7C99EA;
-  font-size: 2.3vw;
+  font-size: 3.3vw;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -164,13 +164,13 @@
 }
 .rules {
   position: absolute;
-  width: 40%;
+  width: 80%;
   height: 85px;
-  left: 29%;
-  top: 145px;
+  left: 9.8%;
+  top: 120px;
   background: #3C6DF6;
-  font-size: 3.5vw;
-  line-height: 36px;
+  font-size: 5.7vw;
+  line-height: 28px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -307,12 +307,12 @@
 }
 .score {
   position: absolute;
-  width: 15%;
-  height: 61px;
-  left: 63%;
-  top: 52px;
+  width: 22.9%;
+  height: 45px;
+  left: 49.7%;
+  top: 63px;
   background: #5F86F3;
-  font-size: 2.3vw;
+  font-size: 3.3vw;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -323,12 +323,12 @@
 }
 .help {
   position: absolute;
-  width: 15%;
-  height: 61px;
-  left: 80%;
-  top: 52px;
+  width: 17.6%;
+  height: 45px;
+  left: 74.1%;
+  top: 63px;
   background: #5F86F3;
-  font-size: 2.3vw;
+  font-size: 3.3vw;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -343,11 +343,11 @@
 }
 .text {
   position: absolute;
-  top: 260px;
-  left: 5%;
+  left: 7.7%;
+  top: 196px;
   width: 7.6%;
   height: 150px;
-  font-size: 19.5vw;
+  font-size: 24.1vw;
   color: white;
   transition: 1s;
 }
@@ -357,11 +357,11 @@
 }
 .text1 {
   position: absolute;
-  top: 260px;
-  left: 23.75%;
+  left: 40.8%;
+  top: 196px;
   width: 7.6%;
   height: 150px;
-  font-size: 19.5vw;
+  font-size: 24.1vw;
   color: white;
   transition: 1s;
 }
@@ -371,11 +371,11 @@
 }
 .text2 {
   position: absolute;
-  top: 260px;
-  left: 42.5%;
+  left: 40.8%;
+  top: 196px;
   width: 7.6%;
   height: 150px;
-  font-size: 19.5vw;
+  font-size: 24.1vw;
   color: white;
   transition: 1s;
 }
@@ -385,11 +385,11 @@
 }
 .text3 {
   position: absolute;
-  top: 260px;
-  left: 61.25%;
+  left: 73.9%;
+  top: 196px;
   width: 7.6%;
   height: 150px;
-  font-size: 19.5vw;
+  font-size: 24.1vw;
   color: white;
   transition: 1s;
 }
@@ -399,11 +399,11 @@
 }
 .text4 {
   position: absolute;
-  top: 260px;
-  left: 80%;
+  left: 7.7%;
+  top: 309px;
   width: 7.6%;
   height: 150px;
-  font-size: 19.5vw;
+  font-size: 24.1vw;
   color: white;
   transition: 1s;
 }
@@ -413,11 +413,11 @@
 }
 .text5 {
   position: absolute;
-  top: 190px;
-  left: 130%;
+  left: 40.8%;
+  top: 309px;
   width: 7.6%;
   height: 150px;
-  font-size: 13.5vw;
+  font-size: 24.1vw;
   color: white;
   transition: 1s;
 }
@@ -427,11 +427,11 @@
 }
 .text6 {
   position: absolute;
-  top: 190px;
-  left: 130%;
+  left: 73.9%;
+  top: 309px;
   width: 7.6%;
   height: 150px;
-  font-size: 13.5vw;
+  font-size: 24.1vw;
   color: white;
   transition: 1s;
 }
@@ -441,11 +441,11 @@
 }
 .text7 {
   position: absolute;
-  top: 500px;
-  left: 5%;
+  left: 7.7%;
+  top: 422px;
   width: 7.6%;
   height: 150px;
-  font-size: 19.5vw;
+  font-size: 24.1vw;
   color: white;
   transition: 1s;
 }
@@ -455,11 +455,11 @@
 }
 .text8 {
   position: absolute;
-  top: 500px;
-  left: 23.75%;
+  left: 40.8%;
+  top: 422px;
   width: 7.6%;
   height: 150px;
-  font-size: 19.5vw;
+  font-size: 24.1vw;
   color: white;
   transition: 1s;
 }
@@ -469,11 +469,11 @@
 }
 .text9 {
   position: absolute;
-  top: 478px;
-  left: 42.7%;
+  top: 408px;
+  left: 73.9%;
   width: 7.6%;
   height: 150px;
-  font-size: 19.5vw;
+  font-size: 24.1vw;
   color: white;
   font-family: 'PT Serif', serif;
   transition: 1s;
@@ -485,11 +485,11 @@
 }
 .text10 {
   position: absolute;
-  top: 500px;
-  left: 61.25%;
+  left: 7.7%;
+  top: 535px;
   width: 7.6%;
   height: 150px;
-  font-size: 19.5vw;
+  font-size: 24.1vw;
   color: white;
   transition: 1s;
 }
@@ -499,11 +499,11 @@
 }
 .text11 {
   position: absolute;
-  top: 500px;
-  left: 80%;
+  left: 40.8%;
+  top: 535px;
   width: 7.6%;
   height: 150px;
-  font-size: 19.5vw;
+  font-size: 24.1vw;
   color: white;
   transition: 1s;
 }
@@ -513,11 +513,11 @@
 }
 .text12 {
   position: absolute;
-  top: 380px;
-  left: 130%;
+  left: 73.9%;
+  top: 535px;
   width: 7.6%;
   height: 150px;
-  font-size: 13.5vw;
+  font-size: 24.1vw;
   color: white;
   transition: 1s;
 }
@@ -527,11 +527,11 @@
 }
 .text13 {
   position: absolute;
-  top: 380px;
-  left: 130%;
+  left: 7.7%;
+  top: 648px;
   width: 7.6%;
   height: 150px;
-  font-size: 10.5vw;
+  font-size: 24.1vw;
   color: white;
   transition: 1s;
 }
@@ -541,11 +541,11 @@
 }
 .text14 {
   position: absolute;
-  top: 740px;
-  left: 5%;
+  left: 40.8%;
+  top: 648px;
   width: 7.6%;
   height: 150px;
-  font-size: 19.5vw;
+  font-size: 24.1vw;
   color: white;
   transition: 1s;
 }
@@ -555,11 +555,11 @@
 }
 .text15 {
   position: absolute;
-  top: 740px;
-  left: 23.75%;
+  left: 73.9%;
+  top: 648px;
   width: 7.6%;
   height: 150px;
-  font-size: 19.5vw;
+  font-size: 24.1vw;
   color: white;
   transition: 1s;
 }
@@ -569,11 +569,11 @@
 }
 .text16 {
   position: absolute;
-  top: 740px;
-  left: 42.5%;
+  left: 7.7%;
+  top: 761px;
   width: 7.6%;
   height: 150px;
-  font-size: 19.5vw;
+  font-size: 24.1vw;
   color: white;
   transition: 1s;
 }
@@ -583,11 +583,11 @@
 }
 .text17 {
   position: absolute;
-  top: 740px;
-  left: 61.25%;
+  left: 40.8%;
+  top: 761px;
   width: 7.6%;
   height: 150px;
-  font-size: 19.5vw;
+  font-size: 24.1vw;
   color: white;
   transition: 1s;
 }
@@ -597,11 +597,11 @@
 }
 .text18 {
   position: absolute;
-  top: 740px;
-  left: 80%;
+  left: 73.9%;
+  top: 761px;
   width: 7.6%;
   height: 150px;
-  font-size: 19.5vw;
+  font-size: 24.1vw;
   color: white;
   transition: 1s;
 }
@@ -1158,22 +1158,22 @@
 }
 .helper {
   position: absolute;
-  top: 0px;
-  right: -500px;
-  width: 485px;
-  height: 1024px;
+  top: 900px;
+  right: 0px;
+  width: 100%;
+  height: 800.26px;
   background-color: red;
   transition: 1s;
   z-index: 15;
 }
 img {
-  width: 530px;
+  width: 100%;
   height: 100%;
 }
 .helper2 {
   position: absolute;
-  top: 0px;
-  right: -500px;
+  top: 900px;
+  right: 0px;
   width: 485px;
   height: 1024px;
   background-color: red;
@@ -1182,8 +1182,8 @@ img {
 }
 .helper3 {
   position: absolute;
-  top: 0px;
-  right: -500px;
+  top: 900px;
+  right: 0px;
   width: 485px;
   height: 1024px;
   background-color: red;
@@ -1192,8 +1192,8 @@ img {
 }
 .helper4 {
   position: absolute;
-  top: 0px;
-  right: -500px;
+  top: 900px;
+  right: 0px;
   width: 485px;
   height: 1024px;
   background-color: red;
@@ -1202,8 +1202,8 @@ img {
 }
 .helper5 {
   position: absolute;
-  top: 0px;
-  right: -500px;
+  top: 900px;
+  right: 0px;
   width: 485px;
   height: 1024px;
   background-color: red;
@@ -1212,8 +1212,8 @@ img {
 }
 .helper6 {
   position: absolute;
-  top: 0px;
-  right: -500px;
+  top: 900px;
+  right: 0px;
   width: 485px;
   height: 1024px;
   background-color: red;
@@ -1222,8 +1222,8 @@ img {
 }
 .helper7 {
   position: absolute;
-  top: 0px;
-  right: -500px;
+  top: 900px;
+  right: 0px;
   width: 485px;
   height: 1024px;
   background-color: red;
@@ -1232,8 +1232,8 @@ img {
 }
 .helper8 {
   position: absolute;
-  top: 0px;
-  right: -500px;
+  top: 900px;
+  right: 0px;
   width: 485px;
   height: 1024px;
   background-color: red;
@@ -1335,7 +1335,7 @@ img {
     animation-duration: 1s;
   }
   .showhelp {
-    transform: translate(-530px);
+    transform: translate(0, -700px);
   }
   .hidden {
     opacity: 0;
@@ -1377,9 +1377,9 @@ img {
   .detal1 {
     position: absolute;
     width: 20%;
-    height: 555px;
+    height: 505px;
     left: 0%;
-    top: 240px;
+    top: 228px;
     background: #7C99EA;
     border-radius: 0px 0px 80px 80px;
     transition: .5s;
@@ -1393,7 +1393,7 @@ img {
     width: 20%;
     height: 555px;
     left: 20%;
-    top: 652px;
+    top: 638px;
     background: #7C99EA;
     border-radius: 80px 80px 0px 0px;
     transition: .5s;
@@ -1407,7 +1407,7 @@ img {
     width: 20%;
     height: 555px;
     left: 60%;
-    top: 652px;
+    top: 638px;
     background: #7C99EA;
     border-radius: 80px 80px 0px 0px;
     transition: .5s;
@@ -1419,9 +1419,9 @@ img {
   .detal4 {
     position: absolute;
     width: 20%;
-    height: 555px;
+    height: 505px;
     left: 80%;
-    top: 240px;
+    top: 225px;
     background: #7C99EA;
     border-radius: 0px 0px 80px 80px;
     transition: .5s;
@@ -1433,9 +1433,9 @@ img {
   .detal5 {
     position: absolute;
     width: 20%;
-    height: 555px;
+    height: 505px;
     left: 40%;
-    top: 240px;
+    top: 225px;
     background: #FFFFFF;
     border-radius: 0px 0px 80px 80px;
     transition: .5s;
@@ -1449,7 +1449,7 @@ img {
     width: 61%;
     height: 118px;
     left: 21%;
-    top: 405px;
+    top: 386px;
     font-family: Times New Roman;
     font-size: 16vw;
     line-height: 138px;
@@ -1464,7 +1464,7 @@ img {
     width: 48px;
     height: 82px;
     left: 37%;
-    top: -3px;
+    top: -20.5px;
     font-family: 'Rockwell';
     font-style: normal;
     font-weight: normal;
@@ -1481,7 +1481,7 @@ img {
     width: 63px;
     height: 94px;
     left: 27.5%;
-    top: -5px;
+    top: -26px;
     font-family: 'Conv_Mothica Bold RUS';
     font-style: normal;
     font-weight: bold;
@@ -1498,7 +1498,7 @@ img {
     width: 110px;
     height: 82px;
     left: 20%;
-    top: 426px;
+    top: 405px;
     font-family: 'MullerBlack';
     font-style: normal;
     font-weight: 900;
@@ -1515,7 +1515,7 @@ img {
     width: 86px;
     height: 82px;
     left: 25%;
-    top: 413px;
+    top: 395px;
     font-family: 'Fugue';
     font-style: normal;
     font-weight: normal;
@@ -1583,7 +1583,7 @@ img {
     width: 74px;
     height: 82px;
     left: 28%;
-    top: 351px;
+    top: 383px;
     font-family: 'Fugue';
     font-style: normal;
     font-weight: normal;
@@ -1598,7 +1598,7 @@ img {
   .wordk {
     position: absolute;
     left: 20%;
-    top: 240px;
+    top: 225px;
     width: 40%;
     height: 409px;
     z-index: 7;
@@ -1635,7 +1635,7 @@ img {
   .wordu {
     position: absolute;
     left: 40%;
-    top: 792px;
+    top: 738px;
     width: 40%;
     height: 395px;
     background: url(images/group5.png);
@@ -1672,7 +1672,7 @@ img {
   .wordo {
     position: absolute;
     left: 0%;
-    top: 792px;
+    top: 738px;
     width: 43%;
     height: 395px;
     transition: .5s;
@@ -1699,11 +1699,11 @@ img {
     width: 275px;
     height: 95px;
     left: 6%;
-    top: 36px;
+    top: 60px;
     font-family: 'Conv_BebasNeue Bold';
     font-style: normal;
     font-weight: bold;
-    font-size: 10.4vw;
+    font-size: 16vw;
     line-height: 120px;
     letter-spacing: -0.008em;
     color: #FFFFFF;
@@ -1712,14 +1712,14 @@ img {
   }
   .oblotext2 {
     position: absolute;
-    width: 38.5%;
+    width: 58.5%;
     height: 82px;
     left: 6%;
     top: 152px;
     font-family: 'Fugue';
     font-style: normal;
     font-weight: normal;
-    font-size: 4.6vw;
+    font-size: 7.2vw;
     line-height: 57px;
     color: #FFFFFF;
     transition: .5s;
@@ -1727,14 +1727,14 @@ img {
   }
   .oblotext3 {
     position: absolute;
-    width: 60.5%;
+    width: 70.5%;
     height: 92px;
     left: 6%;
-    top: 239px;
+    top: 219px;
     font-family: 'Fugue';
     font-style: normal;
     font-weight: normal;
-    font-size: 2.3vw;
+    font-size: 3.8vw;
     line-height: 26px;
     color: #FFFFFF;
     transition: .5s;
@@ -1749,7 +1749,7 @@ img {
     font-family: 'Fugue';
     font-style: normal;
     font-weight: normal;
-    font-size: 2.3vw;
+    font-size: 3.8vw;
     line-height: 26px;
     color: #FFFFFF;
     transition: .5s;
@@ -1757,12 +1757,12 @@ img {
   }
   .start {
     position: absolute;
-    height: 5vw;
-    width: 14.7%;
-    left: 77%;
-    top: 338.349609375px;
+    height: 8vw;
+    width: 19.7%;
+    left: 74%;
+    top: 360.349609375px;
     background: #7C99EA;
-    font-size: 2.3vw;
+    font-size: 3.8vw;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -1802,13 +1802,13 @@ img {
     transition: 2s;
   }
   .power {
-    left: 20%;
-    top: 52px;
+    left: 30.4%;
+    top: 63px;
     transform: scale(1);
     transition: 1.5s;
   }
   .levelmove {
-    transform: translate(143px);
+    transform: translate(-143px);
     transition: 1s;
   }
   .scoremove {
