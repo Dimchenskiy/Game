@@ -6,7 +6,7 @@
   width: 22.7%;
   height: 45px;
   left: 7.7%;
-  top: 63px;
+  top: 33px;
   background: #5F86F3;
   font-size: 3.3vw;
   display: flex;
@@ -167,7 +167,7 @@
   width: 80%;
   height: 85px;
   left: 9.8%;
-  top: 120px;
+  top: 100px;
   background: #3C6DF6;
   font-size: 5.7vw;
   line-height: 28px;
@@ -310,7 +310,7 @@
   width: 22.9%;
   height: 45px;
   left: 49.7%;
-  top: 63px;
+  top: 33px;
   background: #5F86F3;
   font-size: 3.3vw;
   display: flex;
@@ -326,7 +326,7 @@
   width: 17.6%;
   height: 45px;
   left: 74.1%;
-  top: 63px;
+  top: 33px;
   background: #5F86F3;
   font-size: 3.3vw;
   display: flex;
@@ -569,7 +569,7 @@
 }
 .text16 {
   position: absolute;
-  left: 7.7%;
+  left: 130.7%;
   top: 761px;
   width: 7.6%;
   height: 150px;
@@ -583,7 +583,7 @@
 }
 .text17 {
   position: absolute;
-  left: 40.8%;
+  left: 130.8%;
   top: 761px;
   width: 7.6%;
   height: 150px;
@@ -597,7 +597,7 @@
 }
 .text18 {
   position: absolute;
-  left: 73.9%;
+  left: 133.9%;
   top: 761px;
   width: 7.6%;
   height: 150px;
@@ -1379,7 +1379,7 @@ img {
     width: 20%;
     height: 505px;
     left: 0%;
-    top: 228px;
+    top: 178px;
     background: #7C99EA;
     border-radius: 0px 0px 80px 80px;
     transition: .5s;
@@ -1393,7 +1393,7 @@ img {
     width: 20%;
     height: 555px;
     left: 20%;
-    top: 638px;
+    top: 588px;
     background: #7C99EA;
     border-radius: 80px 80px 0px 0px;
     transition: .5s;
@@ -1407,7 +1407,7 @@ img {
     width: 20%;
     height: 555px;
     left: 60%;
-    top: 638px;
+    top: 588px;
     background: #7C99EA;
     border-radius: 80px 80px 0px 0px;
     transition: .5s;
@@ -1421,7 +1421,7 @@ img {
     width: 20%;
     height: 505px;
     left: 80%;
-    top: 225px;
+    top: 175px;
     background: #7C99EA;
     border-radius: 0px 0px 80px 80px;
     transition: .5s;
@@ -1435,7 +1435,7 @@ img {
     width: 20%;
     height: 505px;
     left: 40%;
-    top: 225px;
+    top: 175px;
     background: #FFFFFF;
     border-radius: 0px 0px 80px 80px;
     transition: .5s;
@@ -1549,7 +1549,7 @@ img {
     width: 20%;
     height: 144px;
     left: 60%;
-    top: 420px;
+    top: 370px;
     background: #FFFFFF;
   }
   .detal6 {
@@ -1557,7 +1557,7 @@ img {
     width: 20%;
     height: 505px;
     left: 60%;
-    top: 442px;
+    top: 382px;
     background: #3C6DF6;
     border-radius: 80px 80px 0px 0px;
     transition: .5s;
@@ -1598,7 +1598,7 @@ img {
   .wordk {
     position: absolute;
     left: 20%;
-    top: 225px;
+    top: 175px;
     width: 40%;
     height: 409px;
     z-index: 7;
@@ -1635,7 +1635,7 @@ img {
   .wordu {
     position: absolute;
     left: 40%;
-    top: 738px;
+    top: 688px;
     width: 40%;
     height: 395px;
     background: url(images/group5.png);
@@ -1672,7 +1672,7 @@ img {
   .wordo {
     position: absolute;
     left: 0%;
-    top: 738px;
+    top: 688px;
     width: 43%;
     height: 395px;
     transition: .5s;
@@ -1699,7 +1699,7 @@ img {
     width: 275px;
     height: 95px;
     left: 6%;
-    top: 60px;
+    top: 0px;
     font-family: 'Conv_BebasNeue Bold';
     font-style: normal;
     font-weight: bold;
@@ -1715,7 +1715,7 @@ img {
     width: 58.5%;
     height: 82px;
     left: 6%;
-    top: 152px;
+    top: 90px;
     font-family: 'Fugue';
     font-style: normal;
     font-weight: normal;
@@ -1730,7 +1730,7 @@ img {
     width: 70.5%;
     height: 92px;
     left: 6%;
-    top: 219px;
+    top: 160px;
     font-family: 'Fugue';
     font-style: normal;
     font-weight: normal;
@@ -1745,7 +1745,7 @@ img {
     width: 55.5%;
     height: 92px;
     left: 6%;
-    top: 344px;
+    top: 284px;
     font-family: 'Fugue';
     font-style: normal;
     font-weight: normal;
@@ -1760,7 +1760,7 @@ img {
     height: 8vw;
     width: 19.7%;
     left: 74%;
-    top: 360.349609375px;
+    top: 300px;
     background: #7C99EA;
     font-size: 3.8vw;
     display: flex;
@@ -1774,7 +1774,7 @@ img {
   .cube2 {
     position: absolute;
     width: 100%;
-    height: 442px;
+    height: 382px;
     left: 0px;
     top: 0px;
     background: #3C6DF6;
@@ -1803,7 +1803,7 @@ img {
   }
   .power {
     left: 30.4%;
-    top: 63px;
+    top: 33px;
     transform: scale(1);
     transition: 1.5s;
   }
