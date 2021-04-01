@@ -17,7 +17,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans&display=swap" rel="stylesheet">
-    <link rel='stylesheet' media='screen and (min-width: 1440px) and (max-width: 1920px)' href='style/1920x1080.css' />
+    <link rel='stylesheet' media='screen and (min-width: 1440px) and (max-width: 2520px)' href='style/1920x1080.css' />
     <link rel='stylesheet' media='screen and (min-width: 1367px) and (max-width: 1440px)' href='style/1440x900.css' />
     <link rel='stylesheet' media='screen and (min-width: 1300px) and (max-width: 1366px)' href='style/1366x768.css' />
     <link rel='stylesheet' media='screen and (min-width: 1200px) and (max-width: 1300px)' href='style/1280x800.css' />
@@ -110,6 +110,27 @@
       	font-family: 'Conv_SF-Pro-Display-Regular';
       	src: url('fonts/SF-Pro-Display-Regular.eot');
       	src: local('☺'), url('fonts/SF-Pro-Display-Regular.woff') format('woff'), url('fonts/SF-Pro-Display-Regular.ttf') format('truetype'), url('fonts/SF-Pro-Display-Regular.svg') format('svg');
+      	font-weight: normal;
+      	font-style: normal;
+      }
+      @font-face {
+      	font-family: 'Conv_Acrom-Medium';
+      	src: url('fonts/Acrom-Medium.eot');
+      	src: local('☺'), url('fonts/Acrom-Medium.woff') format('woff'), url('fonts/Acrom-Medium.ttf') format('truetype'), url('fonts/Acrom-Medium.svg') format('svg');
+      	font-weight: normal;
+      	font-style: normal;
+      }
+      @font-face {
+      	font-family: 'Conv_ProximaNovaCond-Semibold';
+      	src: url('fonts/ProximaNovaCond-Semibold.eot');
+      	src: local('☺'), url('fonts/ProximaNovaCond-Semibold.woff') format('woff'), url('fonts/ProximaNovaCond-Semibold.ttf') format('truetype'), url('fonts/ProximaNovaCond-Semibold.svg') format('svg');
+      	font-weight: normal;
+      	font-style: normal;
+      }
+      @font-face {
+      	font-family: 'Conv_9202';
+      	src: url('fonts/9202.eot');
+      	src: local('☺'), url('fonts/9202.woff') format('woff'), url('fonts/9202.ttf') format('truetype'), url('fonts/9202.svg') format('svg');
       	font-weight: normal;
       	font-style: normal;
       }
@@ -216,26 +237,26 @@
       });
     });
     $(document).ready(function(){
-      $(".text, .text1, .text2, .text3, .text4, .text5, .text6, .text7, .text8, .text10, .text11, .text12, .text13, .text14, .text15, .text16, .text17, .text18, .text19, .text20, .text21, .text22, .text23, .text24, .text25, .text26, .text27").click(function(){
+      $(".text, .text1, .text2, .text3, .text4, .text5, .text6, .text7, .text8, .text10, .text11, .text12, .text13, .text14, .text15, .text16, .text17, .text18, .text19, .text20, .text21, .text22, .text23, .text24, .text25, .text26, .text27, .text28, .text29").click(function(){
         $(this).toggleClass("animate__shakeX");
       });
     });
     $(document).ready(function(){
       $(".help").click(function(){
-        $(".helper, .helper2, .helper3, .helper4, .helper5, .helper6, .helper7, .helper8").addClass("showhelp");
+        $(".helper, .helper2, .helper3, .helper4, .helper5, .helper6, .helper7, .helper8, .helper9, .helper10").addClass("showhelp");
         setTimeout(function(){
-          $(".text, .text1, .text2, .text3, .text4, .text5, .text6, .text7, .text8, .text9, .text10, .text11, .text12, .text13, .text14, .text15, .text16, .text17, .text18, .text19, .text20, .level, .section, .rules, .score, .rules2, .level2, .text21, .text41, .form, .text22, .w3ord25, .level3, .rules3, .text23, .w4ord32, .level4, .rules4, .text24, .w5ord2, .level5, .rules5, .text25, .w6ord13, .level6, .rules6, .section2, .text26, .w7ord12, .level7, .rules7, .form2, .text27, .w8ord29, .level8, .rules8, .box8, .help").removeClass("blur1");
+          $(".text, .text1, .text2, .text3, .text4, .text5, .text6, .text7, .text8, .text9, .text10, .text11, .text12, .text13, .text14, .text15, .text16, .text17, .text18, .text19, .text20, .level, .section, .rules, .score, .rules2, .level2, .text21, .text41, .form, .text22, .w3ord25, .level3, .rules3, .text23, .w4ord32, .level4, .rules4, .text24, .w5ord2, .level5, .rules5, .text25, .w6ord13, .level6, .rules6, .section2, .text26, .w7ord12, .level7, .rules7, .form2, .text27, .w8ord29, .level8, .rules8, .box8, .help, .level9, .rules9, .text28, .w9ord17, .level10, .rules10, .text29, .w10ord7").removeClass("blur1");
         },1)
         setTimeout(function(){
-          $(".text, .text1, .text2, .text3, .text4, .text5, .text6, .text7, .text8, .text9, .text10, .text11, .text12, .text13, .text14, .text15, .text16, .text17, .text18, .text19, .text20, .level, .section, .rules, .score, .rules2, .level2, .text21, .text41, .form, .text22, .w3ord25, .level3, .rules3, .text23, .w4ord32, .level4, .rules4, .text24, .w5ord2, .level5, .rules5, .text25, .w6ord13, .level6, .rules6, .section2, .text26, .w7ord12, .level7, .rules7, .form2, .text27, .w8ord29, .level8, .rules8, .box8, .help").addClass("blur");
+          $(".text, .text1, .text2, .text3, .text4, .text5, .text6, .text7, .text8, .text9, .text10, .text11, .text12, .text13, .text14, .text15, .text16, .text17, .text18, .text19, .text20, .level, .section, .rules, .score, .rules2, .level2, .text21, .text41, .form, .text22, .w3ord25, .level3, .rules3, .text23, .w4ord32, .level4, .rules4, .text24, .w5ord2, .level5, .rules5, .text25, .w6ord13, .level6, .rules6, .section2, .text26, .w7ord12, .level7, .rules7, .form2, .text27, .w8ord29, .level8, .rules8, .box8, .help, .level9, .rules9, .text28, .w9ord17, .level10, .rules10, .text29, .w10ord7").addClass("blur");
         },2)
       });
     });
     $(document).ready(function(){
-      $(".helper, .helper2, .helper3, .helper4, .helper5, .helper6, .helper7, .helper8").click(function(){
-        $(".helper, .helper2, .helper3, .helper4, .helper5, .helper6, .helper7, .helper8").removeClass("showhelp");
+      $(".helper, .helper2, .helper3, .helper4, .helper5, .helper6, .helper7, .helper8, .helper9, .helper10").click(function(){
+        $(".helper, .helper2, .helper3, .helper4, .helper5, .helper6, .helper7, .helper8, .helper9, .helper10").removeClass("showhelp");
         setTimeout(function(){
-          $(".text, .text1, .text2, .text3, .text4, .text5, .text6, .text7, .text8, .text9, .text10, .text11, .text12, .text13, .text14, .text15, .text16, .text17, .text18, .text19, .text20, .level, .section, .rules, .score, .rules2, .level2, .text21, .text41, .form, .text22, .w3ord25, .level3, .rules3, .text23, .w4ord32, .level4, .rules4, .text24, .w5ord2, .level5, .rules5, .text25, .w6ord13, .level6, .rules6, .section2, .text26, .w7ord12, .level7, .rules7, .form2, .text27, .w8ord29, .level8, .rules8, .box8, .help").addClass("blur1");
+          $(".text, .text1, .text2, .text3, .text4, .text5, .text6, .text7, .text8, .text9, .text10, .text11, .text12, .text13, .text14, .text15, .text16, .text17, .text18, .text19, .text20, .level, .section, .rules, .score, .rules2, .level2, .text21, .text41, .form, .text22, .w3ord25, .level3, .rules3, .text23, .w4ord32, .level4, .rules4, .text24, .w5ord2, .level5, .rules5, .text25, .w6ord13, .level6, .rules6, .section2, .text26, .w7ord12, .level7, .rules7, .form2, .text27, .w8ord29, .level8, .rules8, .box8, .help, .level9, .rules9, .text28, .w9ord17, .level10, .rules10, .text29, .w10ord7").addClass("blur1");
         },1)
       });
     });
@@ -256,7 +277,7 @@
         },3201)
         setTimeout(function(){
           $(".level2, .section, .rules2, .score, .help, .text21, .form, .text41").removeClass("blocker");
-        },3202)
+        },2002)
         setTimeout(function(){
           $(".level2, .section, .rules2, .score, .help, .text21, .form, .text41").removeClass("hidden");
         },3203)
@@ -285,7 +306,7 @@
         },3201)
         setTimeout(function(){
           $(".level3, .section, .rules3, .score, .help, .text22, .w3ord25").removeClass("blocker");
-        },3202)
+        },2002)
         setTimeout(function(){
           $(".level3, .section, .rules3, .score, .help, .text22, .w3ord25").removeClass("hidden");
         },3205)
@@ -311,7 +332,7 @@
         },3202)
         setTimeout(function(){
           $(".level4, .section, .rules4, .score, .help, .text23, .w4ord32").removeClass("blocker");
-        },3203)
+        },2002)
         setTimeout(function(){
           $(".level4, .section, .rules4, .score, .help, .text23, .w4ord32").removeClass("hidden");
         },3204)
@@ -337,7 +358,7 @@
         },3002)
         setTimeout(function(){
           $(".level5, .section, .rules5, .score, .help, .text24, .w5ord2").removeClass("blocker");
-        },3203)
+        },2002)
         setTimeout(function(){
           $(".text24").removeClass("evene");
         },3004)
@@ -413,10 +434,10 @@
           $(".rules6").removeClass("hidden");
         },6501)
         setTimeout(function(){
-          $(".text25, .w6ord13, .helper6, .helper7, .helper8").removeClass("blocker");
-        },7001)
+          $(".text25, .w6ord13, .helper6, .helper7, .helper8, .helper9, .helper10").removeClass("blocker");
+        },6000)
         setTimeout(function(){
-          $(".text25, .w6ord13, .helper6, .helper7, .helper8").removeClass("hidden");
+          $(".text25, .w6ord13, .helper6, .helper7, .helper8, .helper9, .helper10").removeClass("hidden");
         },7501)
 
       });
@@ -441,7 +462,7 @@
         },3203)
         setTimeout(function(){
           $(".form2").removeClass("hidden");
-        },3204)
+        },2002)
         setTimeout(function(){
           $(".level7, .section2, .rules7, .score, .help, .text26, .w7ord12").removeClass("hidden");
         },3404)
@@ -470,7 +491,7 @@
         },3201)
         setTimeout(function(){
           $(".level8, .section2, .rules8, .score, .help, .text27, .w8ord29, .box8").removeClass("blocker");
-        },3202)
+        },2002)
         setTimeout(function(){
           $(".level8, .section2, .rules8, .score, .help, .text27, .w8ord29, .box8").removeClass("hidden");
         },3205)
@@ -490,10 +511,10 @@
   //   });
   // });
   $(function () {
-  let count = 30;
+  let count = 15;
   $('.score').html('Попыток: ' + count);
-  $('.text, .text1, .text2, .text3, .text4, .text5, .text6, .text7, .text8, .text10, .text11, .text12, .text13, .text14, .text15, .text16, .text17, .text18, .text19, .text20, .text21, .text22, .text23, .text24, .text25, .text26').click(function () {
-    count -= 5;
+  $('.text, .text1, .text2, .text3, .text4, .text5, .text6, .text7, .text8, .text10, .text11, .text12, .text13, .text14, .text15, .text16, .text17, .text18, .text19, .text20, .text21, .text22, .text23, .text24, .text25, .text26, .text27, .text28, .text29').click(function () {
+    count -= 1;
     $('.score').html('Попыток: ' + count);
     if (count == 0) {
       $('.box').removeClass("blocker");
@@ -501,28 +522,29 @@
         $(".box").removeClass("hidden");
       },1);
       setTimeout(function(){
-        $(".text, .text1, .text2, .text3, .text4, .text5, .text6, .text7, .text8, .text9, .text10, .text11, .text12, .text13, .text14, .text15, .text16, .text17, .text18, .text19, .text20, .level, .section, .rules, .score, .rules2, .level2, .text21, .text41, .form, .help, .text22, .w3ord25, .level3, .rules3, .text23, .w4ord32, .level4, .rules4, .text24, .w5ord2, .level5, .rules5, .text25, .w6ord13, .level6, .rules6, .section2, .text26, .w7ord12, .level7, .rules7, .form2, .text27, .w8ord29, .level8, .rules8, .box8").removeClass("blur1");
+        $(".text, .text1, .text2, .text3, .text4, .text5, .text6, .text7, .text8, .text9, .text10, .text11, .text12, .text13, .text14, .text15, .text16, .text17, .text18, .text19, .text20, .level, .section, .rules, .score, .rules2, .level2, .text21, .text41, .form, .help, .text22, .w3ord25, .level3, .rules3, .text23, .w4ord32, .level4, .rules4, .text24, .w5ord2, .level5, .rules5, .text25, .w6ord13, .level6, .rules6, .section2, .text26, .w7ord12, .level7, .rules7, .form2, .text27, .w8ord29, .level8, .rules8, .box8, .level9, .rules9, .text28, .w9ord17, .level10, .rules10, .text29, .w10ord7").removeClass("blur1");
       },2);
       setTimeout(function(){
         $(".text23, .text24").addClass("evene");
       },4)
       setTimeout(function(){
-        $(".text, .text1, .text2, .text3, .text4, .text5, .text6, .text7, .text8, .text9, .text10, .text11, .text12, .text13, .text14, .text15, .text16, .text17, .text18, .text19, .text20, .level, .section, .rules, .score, .rules2, .level2, .text21, .text41, .form, .help, .text22, .w3ord25, .level3, .rules3, .text23, .w4ord32, .level4, .rules4, .text24, .w5ord2, .level5, .rules5, .text25, .w6ord13, .level6, .rules6, .section2, .text26, .w7ord12, .level7, .rules7, .form2, .text27, .w8ord29, .level8, .rules8, .box8").addClass("blur");
+        $(".text, .text1, .text2, .text3, .text4, .text5, .text6, .text7, .text8, .text9, .text10, .text11, .text12, .text13, .text14, .text15, .text16, .text17, .text18, .text19, .text20, .level, .section, .rules, .score, .rules2, .level2, .text21, .text41, .form, .help, .text22, .w3ord25, .level3, .rules3, .text23, .w4ord32, .level4, .rules4, .text24, .w5ord2, .level5, .rules5, .text25, .w6ord13, .level6, .rules6, .section2, .text26, .w7ord12, .level7, .rules7, .form2, .text27, .w8ord29, .level8, .rules8, .box8, .level9, .rules9, .text28, .w9ord17, .level10, .rules10, .text29, .w10ord7").addClass("blur");
       },3);
-      count = 30;
+      count = 15;
+      $('.score').html('Попыток: ' + count);
     }
   });
 });
 $(document).ready(function(){
   $(".box").click(function(){
-    count = 30;
+    count = 15;
     $('.score').html(count);
     $("div").addClass("hidden");
     setTimeout(function(){
       $("div").addClass("blocker");
     },1000)
     setTimeout(function(){
-      $(".text, .text1, .text2, .text3, .text4, .text5, .text6, .text7, .text8, .text9, .text10, .text11, .text12, .text13, .text14, .text15, .text16, .text17, .text18, .text19, .text20, .level, .section, .rules, .score, .help, .helper, .helper2, .helper3, .helper4, .helper5, .helper6, .helper7, .helper8").removeClass("blocker");
+      $(".text, .text1, .text2, .text3, .text4, .text5, .text6, .text7, .text8, .text9, .text10, .text11, .text12, .text13, .text14, .text15, .text16, .text17, .text18, .text19, .text20, .level, .section, .rules, .score, .help, .helper, .helper2, .helper3, .helper4, .helper5, .helper6, .helper7, .helper8, .helper9").removeClass("blocker");
     },2000)
     setTimeout(function(){
       $(".text9, .text41, .w3ord25, .w4ord32, .w5ord2").removeClass("orange");
@@ -531,7 +553,7 @@ $(document).ready(function(){
       $(".w3ord25, .w4ord32, .w5ord2").removeClass("blue");
     },2001)
     setTimeout(function(){
-      $(".w6ord13").removeClass("red1");
+      $(".w6ord13, .w7ord12, .w8ord29, .w9ord17, .w10ord7").removeClass("red1");
     },2001)
     setTimeout(function(){
       $("div").removeClass("blur");
@@ -543,11 +565,112 @@ $(document).ready(function(){
       $(".score").removeClass("red2");
     },2502)
     setTimeout(function(){
+      $(".section2").removeClass("power");
+    },3905)
+    setTimeout(function(){
       $(".help").removeClass("red2");
     },2503)
     setTimeout(function(){
-      $(".text, .text1, .text2, .text3, .text4, .text5, .text6, .text7, .text8, .text9, .text10, .text11, .text12, .text13, .text14, .text15, .text16, .text17, .text18, .text19, .text20, .level, .section, .rules, .score, .help, .helper, .helper2, .helper3, .helper4, .helper5, .helper6").removeClass("hidden");
+      $(".text, .text1, .text2, .text3, .text4, .text5, .text6, .text7, .text8, .text9, .text10, .text11, .text12, .text13, .text14, .text15, .text16, .text17, .text18, .text19, .text20, .level, .section, .rules, .score, .help, .helper, .helper2, .helper3, .helper4, .helper5, .helper6, .helper7, .helper8, .helper9").removeClass("hidden");
     },3000)
+    $('.score').html('Попыток: ' + count);
+  });
+});
+$(document).ready(function(){
+  $(".w8ord29").click(function(){
+    $(this).addClass("red1");
+    setTimeout(function(){
+      $(".circle8").removeClass("blocker");
+    },1)
+    setTimeout(function(){
+      $(".circle8").removeClass("hidden");
+    },2)
+    setTimeout(function(){
+      $(".text27, .rules8, .w8ord29, .circle8, .helper8").addClass("hidden");
+    },2000)
+    setTimeout(function(){
+      $(".text27, .rules8, .w8ord29, .circle8, .helper8").addClass("blocker");
+    },3201)
+    setTimeout(function(){
+      $(".box8").addClass("hidden");
+    },3000)
+    setTimeout(function(){
+      $(".box8").addClass("blocker");
+    },3201)
+    setTimeout(function(){
+      $(".level9, .section2, .rules9, .score, .help, .text28, .w9ord17").removeClass("blocker");
+    },2002)
+    setTimeout(function(){
+      $(".level9, .section2, .rules9, .score, .help, .text28, .w9ord17").removeClass("hidden");
+    },3205)
+  });
+});
+$(document).ready(function(){
+  $(".w9ord17").click(function(){
+    $(this).addClass("red1");
+    setTimeout(function(){
+      $(".circle9").removeClass("blocker");
+    },1)
+    setTimeout(function(){
+      $(".circle9").removeClass("hidden");
+    },2)
+    setTimeout(function(){
+      $(".text28, .rules9, .w9ord17, .circle9, .helper9").addClass("hidden");
+    },2000)
+    setTimeout(function(){
+      $(".text28, .rules9, .w9ord17, .circle9, .helper9").addClass("blocker");
+    },3201)
+    setTimeout(function(){
+      $(".level10, .section2, .rules10, .score, .help, .text29, .w10ord7").removeClass("blocker");
+    },2002)
+    setTimeout(function(){
+      $(".level10, .section2, .rules10, .score, .help, .text29, .w10ord7").removeClass("hidden");
+    },3205)
+  });
+});
+$(document).ready(function(){
+  $(".w10ord7").click(function(){
+    $(this).addClass("red1");
+    setTimeout(function(){
+      $(".circle10").removeClass("blocker");
+    },1)
+    setTimeout(function(){
+      $(".circle10").removeClass("hidden");
+    },2)
+    setTimeout(function(){
+      $(".vic1, .vic3, .vic5, .vic7, .vic2, .vic4, .vic6, .vV, .vI, .vC, .vT, .vO, .vR, .vY").removeClass("blocker");
+    },3)
+    setTimeout(function(){
+      $(".vic1, .vic3, .vic5, .vic7, .vic2, .vic4, .vic6, .vV, .vI, .vC, .vT, .vO, .vR, .vY").removeClass("hidden");
+    },4)
+    setTimeout(function(){
+      $(".vic1, .vic3, .vic5, .vic7").addClass("victormove1");
+    },1500)
+    setTimeout(function(){
+      $(".vic2, .vic4, .vic6").addClass("victormove2");
+    },1500)
+    setTimeout(function(){
+      $(".text29, .rules10, .w10ord7, .circle10, .helper10, .rules10, .help, .score, .level10, .level9, .level8, .level7, .level6, .rules9, .rules8, .rules7, .rules6, .section2").addClass("hidden");
+    },2000)
+    setTimeout(function(){
+      $(".text29, .rules10, .w10ord7, .circle10, .helper10, .rules10, .help, .score, .level10, .level9, .level8, .level7, .level6, .rules9, .rules8, .rules7, .rules6, .section2").addClass("blocker");
+    },3201)
+    setTimeout(function(){
+      $(".forbody").removeClass("forbody2");
+    },2505)
+    setTimeout(function(){
+      $(".victext1, .victext2, .vinword1, .vinword2, .vinword3").removeClass("blocker");
+    },2005)
+    setTimeout(function(){
+      $(".victext1, .victext2, .vinword1, .vinword2, .vinword3").removeClass("hidden");
+    },2606)
+    setTimeout(function(){
+      $(".vic1, .vic3, .vic5, .vic7").addClass("victormove3");
+    },4200)
+    setTimeout(function(){
+      $(".vic2, .vic4, .vic6").addClass("victormove4");
+    },4200)
+
   });
 });
 
@@ -580,6 +703,12 @@ $(document).ready(function(){
     </div>
     <div class="level8 hidden blocker">
       Уровень 8
+    </div>
+    <div class="level9 hidden blocker">
+      Уровень 9
+    </div>
+    <div class="level10 hidden blocker">
+      Уровень 10
     </div>
     <div class="section hidden blocker">
       Антиква
@@ -618,6 +747,14 @@ $(document).ready(function(){
     <div class="rules8 hidden blocker">
       Найди SF Pro Text
       <br>из Avenir
+    </div>
+    <div class="rules9 hidden blocker">
+      Найди Fugue
+      <br>из Acrom
+    </div>
+    <div class="rules10 hidden blocker">
+      Найди Proxima Nova
+      <br>из Helvetica
     </div>
     <div class="score hidden blocker">
       0
@@ -818,6 +955,7 @@ $(document).ready(function(){
       <img src="images/form.png" alt="worf" class="form1">
       <img src="images/form3.png" alt="worf" class="form3">
       <img src="images/formvert.png" alt="wors" class="formvert">
+      <img src="images/formIP.png" alt="wora" class="formIP">
     </div>
     <div class="helper">
       <img src="images/helper1.png" alt="">
@@ -829,6 +967,9 @@ $(document).ready(function(){
     <div class="circle5 hidden blocker"></div>
     <div class="circle6 hidden blocker"></div>
     <div class="circle7 hidden blocker"></div>
+    <div class="circle8 hidden blocker"></div>
+    <div class="circle9 hidden blocker"></div>
+    <div class="circle10 hidden blocker"></div>
     <div class="box hidden blocker">
       <img src="images/wasted.png" alt="" class="box1">
     </div>
@@ -852,6 +993,12 @@ $(document).ready(function(){
     </div>
     <div class="helper8">
       <img src="images/helper8.png" alt="">
+    </div>
+    <div class="helper9">
+      <img src="images/helper9.png" alt="">
+    </div>
+    <div class="helper10">
+      <img src="images/helper10.png" alt="">
     </div>
     <!-- <div class="oblozka"></div> -->
     <div class="detal1">
@@ -1097,6 +1244,7 @@ $(document).ready(function(){
       <img src="images/form2.png" alt="worn" class="form22">
       <img src="images/form4.png" alt="worn" class="form4">
       <img src="images/formvert2.png" alt="worz" class="formvert2">
+      <img src="images/formIP2.png" alt="worz" class="formIP2">
     </div>
     <div id="w8ord1" class="text27 hidden blocker">A</div>
     <div id="w8ord2" class="text27 hidden blocker">B</div>
@@ -1136,6 +1284,90 @@ $(document).ready(function(){
     <div id="w8ord36" class="text27 hidden blocker">A</div>
     <div id="w8ord37" class="text27 hidden blocker">A</div>
     <div class="box8 hidden blocker"></div>
+    <div id="w9ord1" class="text28 hidden blocker">R</div>
+    <div id="w9ord2" class="text28 hidden blocker">R</div>
+    <div id="w9ord3" class="text28 hidden blocker">R</div>
+    <div id="w9ord4" class="text28 hidden blocker">K</div>
+    <div id="w9ord5" class="text28 hidden blocker">K</div>
+    <div id="w9ord6" class="text28 hidden blocker">K</div>
+    <div id="w9ord7" class="text28 hidden blocker">K</div>
+    <div id="w9ord8" class="text28 hidden blocker">K</div>
+    <div id="w9ord9" class="text28 hidden blocker">K</div>
+    <div id="w9ord10" class="text28 hidden blocker">K</div>
+    <div id="w9ord11" class="text28 hidden blocker">K</div>
+    <div id="w9ord12" class="text28 hidden blocker">K</div>
+    <div id="w9ord13" class="text28 hidden blocker">K</div>
+    <div id="w9ord14" class="text28 hidden blocker">K</div>
+    <div id="w9ord15" class="text28 hidden blocker">K</div>
+    <div id="w9ord16" class="text28 hidden blocker">K</div>
+    <div class="w9ord17 hidden blocker">K</div>
+    <div id="w9ord18" class="text28 hidden blocker">K</div>
+    <div id="w9ord19" class="text28 hidden blocker">K</div>
+    <div id="w9ord20" class="text28 hidden blocker">B</div>
+    <div id="w9ord21" class="text28 hidden blocker">B</div>
+    <div id="w9ord22" class="text28 hidden blocker">B</div>
+    <div id="w9ord23" class="text28 hidden blocker">B</div>
+    <div id="w9ord24" class="text28 hidden blocker">B</div>
+    <div id="w9ord25" class="text28 hidden blocker">B</div>
+    <div id="w9ord26" class="text28 hidden blocker">B</div>
+    <div id="w9ord27" class="text28 hidden blocker">B</div>
+    <div id="w9ord28" class="text28 hidden blocker">B</div>
+    <div id="w9ord29" class="text28 hidden blocker">B</div>
+    <div id="w9ord30" class="text28 hidden blocker">B</div>
+    <div id="w9ord31" class="text28 hidden blocker">B</div>
+    <div id="w9ord32" class="text28 hidden blocker">B</div>
+    <div id="w9ord33" class="text28 hidden blocker">B</div>
+    <div id="w9ord34" class="text28 hidden blocker">B</div>
+    <div id="w9ord35" class="text28 hidden blocker">B</div>
+    <div id="w9ord36" class="text28 hidden blocker">B</div>
+    <div id="w9ord37" class="text28 hidden blocker">B</div>
+    <div id="w9ord38" class="text28 hidden blocker">B</div>
+    <div id="w9ord39" class="text28 hidden blocker">B</div>
+    <div id="w9ord40" class="text28 hidden blocker">B</div>
+    <div id="w9ord41" class="text28 hidden blocker">B</div>
+    <div id="w10ord1" class="text29 hidden blocker">F</div>
+    <div id="w10ord2" class="text29 hidden blocker">e</div>
+    <div id="w10ord3" class="text29 hidden blocker">B</div>
+    <div id="w10ord4" class="text29 hidden blocker">R</div>
+    <div id="w10ord5" class="text29 hidden blocker">a</div>
+    <div id="w10ord6" class="text29 hidden blocker">A</div>
+    <div class="w10ord7 hidden blocker">H</div>
+    <div id="w10ord8" class="text29 hidden blocker">n</div>
+    <div id="w10ord9" class="text29 hidden blocker">g</div>
+    <div id="w10ord10" class="text29 hidden blocker">C</div>
+    <div id="w10ord11" class="text29 hidden blocker">k</div>
+    <div id="w10ord12" class="text29 hidden blocker">r</div>
+    <div id="w10ord13" class="text29 hidden blocker">S</div>
+    <div class="vic1">
+      <div class="vV">V</div>
+    </div>
+    <div class="vic2">
+      <div class="vI">I</div>
+    </div>
+    <div class="vic3">
+      <div class="vC">C</div>
+    </div>
+    <div class="vic4">
+      <div class="vT">T</div>
+    </div>
+    <div class="vic5">
+      <div class="vO">O</div>
+    </div>
+    <div class="vic6">
+      <div class="vR">R</div>
+    </div>
+    <div class="vic7">
+      <div class="vY">Y</div>
+    </div>
+    <div class="victext1 hidden blocker">
+      Победа!
+    </div>
+    <div class="victext2 hidden blocker">
+     Молодец! Ты прошёл испытание типографикой. <br>Теперь ты знаешь, чем отличаются шрифты,<br> и сможешь применить эти навыки на своём творческом пути.
+    </div>
+    <div class="vinword1 hidden blocker">A</div>
+    <div class="vinword2 hidden blocker">R</div>
+    <div class="vinword3 hidden blocker">T</div>
 
 
   </body>
