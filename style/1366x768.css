@@ -165,7 +165,7 @@
   width: 9.9%;
   height: 71px;
   left: 45%;
-  top: 350px;
+  top: 300px;
   background: #7C99EA;
   font-size: 1.6vw;
   display: flex;
@@ -182,7 +182,7 @@
   width: 9.9%;
   height: 71px;
   left: 45%;
-  top: 350px;
+  top: 300px;
   background: #ff7944;
   font-size: 1.6vw;
   display: flex;
@@ -499,7 +499,7 @@
 }
 .text7 {
   position: absolute;
-  top: 380px;
+  top: 360px;
   left: 3.6%;
   width: 7.6%;
   height: 150px;
@@ -513,7 +513,7 @@
 }
 .text8 {
   position: absolute;
-  top: 380px;
+  top: 360px;
   left: 17.5%;
   width: 7.6%;
   height: 150px;
@@ -527,7 +527,7 @@
 }
 .text9 {
   position: absolute;
-  top: 362px;
+  top: 342px;
   left: 31.4%;
   width: 7.6%;
   height: 150px;
@@ -543,7 +543,7 @@
 }
 .text10 {
   position: absolute;
-  top: 380px;
+  top: 360px;
   left: 45.3%;
   width: 7.6%;
   height: 150px;
@@ -557,7 +557,7 @@
 }
 .text11 {
   position: absolute;
-  top: 380px;
+  top: 360px;
   left: 59.2%;
   width: 7.6%;
   height: 150px;
@@ -571,7 +571,7 @@
 }
 .text12 {
   position: absolute;
-  top: 380px;
+  top: 360px;
   left: 73.1%;
   width: 7.6%;
   height: 150px;
@@ -585,7 +585,7 @@
 }
 .text13 {
   position: absolute;
-  top: 380px;
+  top: 360px;
   left: 87%;
   width: 7.6%;
   height: 150px;
@@ -599,7 +599,7 @@
 }
 .text14 {
   position: absolute;
-  top: 570px;
+  top: 530px;
   left: 3.6%;
   width: 7.6%;
   height: 150px;
@@ -613,7 +613,7 @@
 }
 .text15 {
   position: absolute;
-  top: 570px;
+  top: 530px;
   left: 17.5%;
   width: 7.6%;
   height: 150px;
@@ -627,7 +627,7 @@
 }
 .text16 {
   position: absolute;
-  top: 570px;
+  top: 530px;
   left: 31.4%;
   width: 7.6%;
   height: 150px;
@@ -641,7 +641,7 @@
 }
 .text17 {
   position: absolute;
-  top: 570px;
+  top: 530px;
   left: 45.3%;
   width: 7.6%;
   height: 150px;
@@ -655,7 +655,7 @@
 }
 .text18 {
   position: absolute;
-  top: 570px;
+  top: 530px;
   left: 59.2%;
   width: 7.6%;
   height: 150px;
@@ -669,7 +669,7 @@
 }
 .text19 {
   position: absolute;
-  top: 570px;
+  top: 530px;
   left: 73.1%;
   width: 7.6%;
   height: 150px;
@@ -683,7 +683,7 @@
 }
 .text20 {
   position: absolute;
-  top: 570px;
+  top: 530px;
   left: 87%;
   width: 7.6%;
   height: 150px;
@@ -1303,10 +1303,10 @@ img {
 }
 .circle {
   position: absolute;
-  top: 368px;
-  left: 27.8%;
-  width: 200px;
-  height: 200px;
+  top: 354px;
+  left: 28.4%;
+  width: 180px;
+  height: 180px;
   border-radius: 150px;
   background: white;
   transition: 1s;
@@ -1324,7 +1324,7 @@ img {
 .circle3 {
   position: absolute;
   left: 65.5%;
-  top: 456px;
+  top: 432px;
   width: 150px;
   height: 150px;
   border-radius: 150px;
@@ -1373,8 +1373,8 @@ img {
 }
 .circle8 {
   position: absolute;
-  left: 31.2%;
-  top: 625px;
+  left: 12%;
+  top: 480px;
   width: 150px;
   height: 150px;
   border-radius: 150px;
@@ -1790,7 +1790,7 @@ img {
     width: 275px;
     height: 95px;
     left: 6%;
-    top: 139px;
+    top: 89px;
     font-family: 'Conv_BebasNeue Bold';
     font-style: normal;
     font-weight: bold;
@@ -1805,7 +1805,7 @@ img {
     width: 28.5%;
     height: 82px;
     left: 6%;
-    top: 272px;
+    top: 222px;
     font-family: 'Fugue';
     font-style: normal;
     font-weight: normal;
@@ -1819,7 +1819,7 @@ img {
     width: 30.5%;
     height: 82px;
     left: 6%;
-    top: 379px;
+    top: 329px;
     font-family: 'Fugue';
     font-style: normal;
     font-weight: normal;
@@ -1833,7 +1833,7 @@ img {
     width: 31.5%;
     height: 82px;
     left: 6%;
-    top: 532px;
+    top: 482px;
     font-family: 'Fugue';
     font-style: normal;
     font-weight: normal;
@@ -1847,7 +1847,7 @@ img {
     height: 4vw;
     width: 9.7%;
     left: 6%;
-    top: 635.349609375px;
+    top: 585.349609375px;
     background: #7C99EA;
     font-size: 1.6vw;
     display: flex;
@@ -1990,7 +1990,7 @@ img {
     width: 5%;
     height: 118px;
     left: 5.7%;
-    top: 321px;
+    top: 311px;
     font-family: 'Oranienbaum', serif;
     font-size: 8.8vw;
     color: #FFFFFF;
@@ -2000,7 +2000,7 @@ img {
     width: 5%;
     height: 118px;
     left: 16%;
-    top: 321px;
+    top: 311px;
     font-family: 'Oranienbaum', serif;
     font-size: 8.8vw;
     color: #FFFFFF;
@@ -2010,7 +2010,7 @@ img {
     width: 5%;
     height: 118px;
     left: 26.5%;
-    top: 321px;
+    top: 311px;
     font-family: 'Oranienbaum', serif;
     font-size: 8.8vw;
     color: #FFFFFF;
@@ -2020,7 +2020,7 @@ img {
     width: 5%;
     height: 118px;
     left: 37%;
-    top: 321px;
+    top: 311px;
     font-family: 'Oranienbaum', serif;
     font-size: 8.8vw;
     color: #FFFFFF;
@@ -2030,7 +2030,7 @@ img {
     width: 5%;
     height: 118px;
     left: 47.4%;
-    top: 321px;
+    top: 311px;
     font-family: 'Oranienbaum', serif;
     font-size: 8.8vw;
     color: #FFFFFF;
@@ -2040,7 +2040,7 @@ img {
     width: 5%;
     height: 118px;
     left: 57.8%;
-    top: 321px;
+    top: 311px;
     font-family: 'Oranienbaum', serif;
     font-size: 8.8vw;
     color: #FFFFFF;
@@ -2050,7 +2050,7 @@ img {
     width: 5%;
     height: 118px;
     left: 68.2%;
-    top: 321px;
+    top: 311px;
     font-family: 'Oranienbaum', serif;
     font-size: 8.8vw;
     color: #FFFFFF;
@@ -2060,7 +2060,7 @@ img {
     width: 5%;
     height: 118px;
     left: 78.6%;
-    top: 321px;
+    top: 311px;
     font-family: 'Oranienbaum', serif;
     font-size: 8.8vw;
     color: #FFFFFF;
@@ -2070,7 +2070,7 @@ img {
     width: 5%;
     height: 118px;
     left: 89%;
-    top: 321px;
+    top: 311px;
     font-family: 'Oranienbaum', serif;
     font-size: 8.8vw;
     color: #FFFFFF;
@@ -2080,7 +2080,7 @@ img {
     width: 5%;
     height: 118px;
     left: 5.7%;
-    top: 461px;
+    top: 441px;
     font-family: 'Oranienbaum', serif;
     font-size: 8.8vw;
     color: #FFFFFF;
@@ -2090,7 +2090,7 @@ img {
     width: 5%;
     height: 118px;
     left: 16%;
-    top: 461px;
+    top: 441px;
     font-family: 'Oranienbaum', serif;
     font-size: 8.8vw;
     color: #FFFFFF;
@@ -2100,7 +2100,7 @@ img {
     width: 5%;
     height: 118px;
     left: 26.5%;
-    top: 461px;
+    top: 441px;
     font-family: 'Oranienbaum', serif;
     font-size: 8.8vw;
     color: #FFFFFF;
@@ -2110,7 +2110,7 @@ img {
     width: 5%;
     height: 118px;
     left: 37%;
-    top: 461px;
+    top: 441px;
     font-family: 'Oranienbaum', serif;
     font-size: 8.8vw;
     color: #FFFFFF;
@@ -2120,7 +2120,7 @@ img {
     width: 5%;
     height: 118px;
     left: 47.4%;
-    top: 461px;
+    top: 441px;
     font-family: 'Oranienbaum', serif;
     font-size: 8.8vw;
     color: #FFFFFF;
@@ -2130,7 +2130,7 @@ img {
     width: 5%;
     height: 118px;
     left: 57.8%;
-    top: 461px;
+    top: 441px;
     font-family: 'Oranienbaum', serif;
     font-size: 8.8vw;
     color: #FFFFFF;
@@ -2140,7 +2140,7 @@ img {
     width: 5%;
     height: 118px;
     left: 68.2%;
-    top: 449px;
+    top: 429px;
     font-family: 'Inria Serif', serif;
     font-size: 8.8vw;
     color: white;
@@ -2156,7 +2156,7 @@ img {
     width: 5%;
     height: 118px;
     left: 78.6%;
-    top: 461px;
+    top: 441px;
     font-family: 'Oranienbaum', serif;
     font-size: 8.8vw;
     color: #FFFFFF;
@@ -2166,7 +2166,7 @@ img {
     width: 5%;
     height: 118px;
     left: 89%;
-    top: 461px;
+    top: 441px;
     font-family: 'Oranienbaum', serif;
     font-size: 8.8vw;
     color: #FFFFFF;
@@ -2176,7 +2176,7 @@ img {
     width: 5%;
     height: 118px;
     left: 5.7%;
-    top: 603px;
+    top: 573px;
     font-family: 'Oranienbaum', serif;
     font-size: 8.8vw;
     color: #FFFFFF;
@@ -2186,7 +2186,7 @@ img {
     width: 5%;
     height: 118px;
     left: 16%;
-    top: 603px;
+    top: 573px;
     font-family: 'Oranienbaum', serif;
     font-size: 8.8vw;
     color: #FFFFFF;
@@ -2196,7 +2196,7 @@ img {
     width: 5%;
     height: 118px;
     left: 26.5%;
-    top: 603px;
+    top: 573px;
     font-family: 'Oranienbaum', serif;
     font-size: 8.8vw;
     color: #FFFFFF;
@@ -2206,7 +2206,7 @@ img {
     width: 5%;
     height: 118px;
     left: 37%;
-    top: 603px;
+    top: 573px;
     font-family: 'Oranienbaum', serif;
     font-size: 8.8vw;
     color: #FFFFFF;
@@ -2216,7 +2216,7 @@ img {
     width: 5%;
     height: 118px;
     left: 47.4%;
-    top: 603px;
+    top: 573px;
     font-family: 'Oranienbaum', serif;
     font-size: 8.8vw;
     color: #FFFFFF;
@@ -2226,7 +2226,7 @@ img {
     width: 5%;
     height: 118px;
     left: 57.8%;
-    top: 603px;
+    top: 573px;
     font-family: 'Oranienbaum', serif;
     font-size: 8.8vw;
     color: #FFFFFF;
@@ -2236,7 +2236,7 @@ img {
     width: 5%;
     height: 118px;
     left: 68.2%;
-    top: 603px;
+    top: 573px;
     font-family: 'Oranienbaum', serif;
     font-size: 8.8vw;
     color: #FFFFFF;
@@ -2246,7 +2246,7 @@ img {
     width: 5%;
     height: 118px;
     left: 78.6%;
-    top: 603px;
+    top: 573px;
     font-family: 'Oranienbaum', serif;
     font-size: 8.8vw;
     color: #FFFFFF;
@@ -2256,7 +2256,7 @@ img {
     width: 5%;
     height: 118px;
     left: 89%;
-    top: 603px;
+    top: 573px;
     font-family: 'Oranienbaum', serif;
     font-size: 8.8vw;
     color: #FFFFFF;
@@ -4066,8 +4066,8 @@ img {
     position: absolute;
     width: 5%;
     height: 118px;
-    left: 14.3%;
-    top: 507.7px;
+    left: 34.3%;
+    top: 630.31px;
     font-size: 8.8vw;
     font-family: 'Conv_Metropolis-Regular';
     color: white;
@@ -4088,8 +4088,8 @@ img {
     position: absolute;
     width: 5%;
     height: 118px;
-    left: 34.3%;
-    top: 630.31px;
+    left: 15.3%;
+    top: 487.7px;
     font-size: 8.8vw;
     font-family: 'Conv_SF-Pro-Display-Regular';
     color: white;
